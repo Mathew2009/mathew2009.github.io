@@ -1,0 +1,134 @@
+	
+	.body {
+	margin: 0;
+	padding: 0;
+	
+}
+	.body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+
+.body {
+    font-family: "Lato", sans-serif;
+    color: #800080;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#800080 ;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #FF0000;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.box{
+
+	width: 500px;
+	padding: 20px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%
+	color: white;
+	font-style: 'Arial',serif;
+}
+
+
+.box-img{
+	border-radius: 10%;
+	width: 200px;
+	height: 200px;
+}
+
+.content{
+	height: 460px;
+	width: 345px;
+	border: 5px;
+	float: left;
+	margin: 10px;
+}
+
+.box h1{
+	
+    text-align: left;
+    color: blue;
+	font-size: 30px;
+	letter-spacing: 2px;
+	font-weight: 200;
+	font-family: 'Arial',serif;
+}
+
+
+.container h2{
+	color: blue;
+	font-size: 25px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+
+.content h5{
+	color: green;
+	font-size: 20px;
+	letter-spacing: 2px;
+	font-weight: 100;
+}
+.content p{
+	
+	text-align: justify;
+}
+.box li{
+	display:inline-block;
+	margin: 4px;
+	list-style: none;
+
+}
+
+.box li a{
+	color: white;
+	text-decoration: none;
+	font-size: 14px;
+	transition: all ease-in-out 250ms;
+
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#191c22;
+   color: white;
+   text-align: center;
+}
+
